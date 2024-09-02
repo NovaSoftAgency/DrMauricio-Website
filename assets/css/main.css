@@ -707,11 +707,11 @@ section.hero {
   background-color: var(--hero-bg-color);
 }
 section.section-1 {
-  background: rgb(52, 51, 56);
+  background: rgb(27, 27, 27);
   background: linear-gradient(
     0deg,
-    rgba(52, 51, 56, 1) 0%,
-    rgba(4,4,2,1) 100%
+    rgba(27, 27, 27, 1) 50%,
+    rgba(17,17,17,1) 100%
   );
 }
 section.section-2 {
@@ -2818,6 +2818,7 @@ header .navbar-expand .navbar-brand img {
 }
 
 .card p {
+  color:#c0bfbf;
   margin-top: 0;
   white-space: pre-wrap;
 }
@@ -4858,3 +4859,81 @@ footer .copyright a:not(.btn) {
 }
 
 /* #endregion All Media Queries */
+
+a:hover,a:focus{
+  text-decoration: none;
+  outline: none;
+}
+#accordion .panel{
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  margin-bottom: 15px;
+  position: relative;
+}
+#accordion .panel:before{
+  content: "";
+  display: block;
+  width: 1px;
+  height: 100%;
+  border: 1px dashed #6e8898;
+  position: absolute;
+  top: 25px;
+  left: 18px;
+}
+#accordion .panel:last-child:before{ display: none; }
+#accordion .panel-heading{
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  position: relative;
+}
+#accordion .panel-title a{
+  display: block;
+  padding: 10px 30px 10px 60px;
+  margin: 0;
+  background: #00000000;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #f0c870;
+  border-radius: 0;
+  position: relative;
+}
+#accordion .panel-title a:before,
+#accordion .panel-title a.collapsed:before{
+  content: "\e606";
+  font-family: "icons";
+  font-weight: 900;
+  width: 40px;
+
+  line-height: 40px;
+  background: #f0c870;
+  border: 1px solid #f0c870;
+  border-radius: 3px;
+  font-size: 20px;
+  margin: auto;
+  color: #000000;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.3s ease 0s;
+}
+#accordion .panel-title a.collapsed:before{
+  font-family: "icons";
+  content: "\e604";
+  background: #343338;
+  border: 1px solid #343338;
+  color: #ffffff;
+}
+#accordion .panel-body{
+  padding: 10px 30px 10px 30px;
+  margin-left: 40px;
+  background: #00000000;
+  border-top: none;
+  font-size: 15px;
+  color: #a8a8a8;
+  line-height: 28px;
+  letter-spacing: 1px;
+}

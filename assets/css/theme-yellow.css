@@ -68,6 +68,7 @@
 }
 
 .showcase .card:hover .image-over:before {
+
     background: -webkit-linear-gradient(45deg, var(--primary-color) 15%, var(--primary-color) 65%);
     background: linear-gradient(45deg, var(--primary-color) 15%, var(--primary-color) 65%);
     opacity: 0.9;

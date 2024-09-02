@@ -38,11 +38,11 @@
     --p-size: 1rem;
     --p-weight: 400;
 
-    --header-bg-color: #1B1B1B;
+    --header-bg-color: #111111;
     --nav-brand-height: 35px;
     --nav-item-color: var(--primary-color);
     --top-nav-item-color: #f5f5f5;
-    --hero-bg-color: #1B1B1B;
+    --hero-bg-color: #111111;
     --footer-brand-height: 80px;
 
 
