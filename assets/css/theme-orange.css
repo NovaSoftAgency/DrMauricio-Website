@@ -24,11 +24,13 @@
 /* #region Root */
 
 :root {
-    
-    /* --primary-color: #FFAA1D;
+  /* --primary-color: #FFAA1D;
     --secondary-color: #FFCA4B; */
-    --primary-color: #F8C95E;
-    --secondary-color: #f0c870;
+  --primary-color: #f8c95e;
+  --secondary-color: #f0c870;
 }
+
+
+
 
 /* #endregion Root */
