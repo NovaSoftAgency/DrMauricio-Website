@@ -2209,7 +2209,7 @@ header .navbar-expand .navbar-brand img {
 }
 
 .full-slider {
-  cursor: pointer;
+  cursor: default;
 }
 
 .full-slider .inner,
