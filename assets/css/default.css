@@ -26,9 +26,9 @@
 /* #region Root */
 
 :root {
-    --h1-font: "Default";
-    --h1-size: 6rem;
-    --h1-weight: 900;
+    --h1-font:"Poppins", sans-serif;
+    --h1-size: 5rem;
+    --h1-weight: 700;
     
     --h2-font: 'Poppins', sans-serif;
     --h2-size: 3rem;
