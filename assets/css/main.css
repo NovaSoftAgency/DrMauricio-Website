@@ -3341,14 +3341,38 @@ header .navbar-expand .navbar-brand img {
   object-position: center;
 }
 
-.hero-image {
+/* .hero-image {
   position: absolute;
   right: 10%;
   bottom: 0;
   width: auto;
   height: 85%;
+} */
+.hero-image {
+  position: absolute;
+  right: 10%;
+  bottom: 0;
+  max-width: 100%;
+  max-height: 85vh;
+  width: auto;
+  height: auto;
+  object-fit: cover; /* Mantiene la proporción sin distorsionar, pero puede cortar la imagen */
 }
 
+/* Para pantallas más pequeñas, ajustamos la imagen */
+@media (max-width: 768px) {
+  .hero-image {
+    right: 5%; /* Cambia la posición del hero en pantallas más pequeñas */
+    max-height: 75vh; /* Reduce un poco el tamaño para móviles */
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-image {
+    right: 2%;
+    max-height: 65vh;
+  }
+}
 .hero-image-left {
   position: absolute;
   left: 10%;
