@@ -3557,12 +3557,7 @@ header .navbar-expand .navbar-brand img {
 
 /* #region Form and Field */
 
-.grecaptcha-badge {
-  bottom: 100px !important;
-  box-shadow: none !important;
-  visibility: hidden;
-  z-index: -100;
-}
+
 
 .form-control {
   width: 100%;
