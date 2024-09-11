@@ -4888,10 +4888,10 @@ a:hover,a:focus{
   padding: 10px 30px 10px 60px;
   margin: 0;
   background: #00000000;
-  font-size: 20px;
+  font-size: 1rem;
   font-weight: 700;
   letter-spacing: 1px;
-  color: #f0c870;
+  color: #F8C95E;
   border-radius: 0;
   position: relative;
 }
