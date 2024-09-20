@@ -1159,7 +1159,7 @@ aside {
   list-style: none;
 }
 
-.list-group .list-group-item .icon {
+.list-group .list-group-item .icon .iconns {
   color: var(--primary-color);
   margin-right: 15px;
   display: flex;
@@ -1179,7 +1179,7 @@ aside {
   white-space: pre-wrap;
 }
 
-.highlights .items .item .icon {
+.highlights .items .item .iconns {
   background-image: -webkit-linear-gradient(
     45deg,
     var(--secondary-color) 15%,
@@ -1200,7 +1200,7 @@ aside {
   margin-bottom: 30px;
 }
 
-.offers .items .item .icon {
+.offers .items .item .icon  {
   background-image: -webkit-linear-gradient(
     45deg,
     var(--secondary-color) 15%,
@@ -1216,7 +1216,12 @@ aside {
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
+.iconns {
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: var(--secondary-color);
+}
 .offers.secondary .items .item h4 {
   margin-top: 0;
 }
@@ -2699,6 +2704,15 @@ header .navbar-expand .navbar-brand img {
   display: block;
   margin: auto;
 }
+.iconns {
+  width: auto;
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+  font-size: 60px;
+  display: block;
+  margin: auto;
+}
 
 .icon.smaller {
   width: 24px;
@@ -2944,8 +2958,8 @@ header .navbar-expand .navbar-brand img {
   -webkit-text-fill-color: #f5f5f5;
 }
 
-.card:not(.no-hover):hover .icon,
-.card.sticky:not(.no-hover) .icon {
+.card:not(.no-hover):hover .icon .iconns,
+.card.sticky:not(.no-hover) .icon .iconns{
   background-color: transparent;
   color: #f5f5f5;
   -webkit-text-fill-color: #f5f5f5;
