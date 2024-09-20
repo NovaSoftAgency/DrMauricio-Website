@@ -54,5 +54,10 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 
+<<<<<<< Updated upstream
 .icon-cp-05:before { content: '\e800'; } /* '' */
 .icon-whatsapp:before { content: '\f232'; } /* '' */
+=======
+.iconn-cp-05:before { content: '\e800'; } /* '' */
+.iconn-whatsapp:before { content: '\f232'; } /* '' */
+>>>>>>> Stashed changes
